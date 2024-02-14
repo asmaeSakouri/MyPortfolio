@@ -226,6 +226,10 @@ input::-webkit-input-placeholder {
     text-decoration: underline; /* Underline links on hover for better visibility */
 }
 .site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -237,13 +241,10 @@ input::-webkit-input-placeholder {
 }
 
 .footer-content {
-  flex: 1;
+  gap: 10px;
 }
 
-.contact {
-  text-align: left; /* Align the contact information to the left */
-}
 
 .copyright {
-  text-align: right; /* Align the copyright information to the right */
+  text-align: right;
 }
