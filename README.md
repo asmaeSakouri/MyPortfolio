@@ -5,7 +5,7 @@
 This is my personal portfolio website showcasing my skills, projects, and resume. The repository contains HTML and CSS files that define the structure and style of the portfolio.
 ## Preview
 
-Live Demo: (https://asmaesakouri.github.io/MyPortfolio.github.io/)
+Live Demo: (https://asmaesakouri.github.io/MyPortfolio/)
 
 ## Table of Contents
 
