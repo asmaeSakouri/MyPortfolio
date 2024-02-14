@@ -158,14 +158,14 @@ input::-webkit-input-placeholder {
   }
   
   .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
   }
   
   .gallery img {
-    width: calc(20% - 20px); /* Set the width to 20% of the container width with a 20px gap between images */
+    width: calc(40% - 20px); /* Set the width to 20% of the container width with a 20px gap between images */
     height: auto;
     border-radius: 8px;
     cursor: pointer;
